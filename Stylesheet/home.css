@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+    height: 600px;
+}
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.carousel-item img {
+    width: 100%; /* Resize the image to fit the container */
+    height: 100%;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.carousel-caption {
+    color: #d40606; 
+    font-size: 2rem; 
+    /* font-family: Arial, sans-serif;  */
+    text-shadow: 0px 0px 10px black; 
+    margin-bottom: 300px !important;
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: #2e2e2e69 !important;
+  color: black !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.rsn-wrp{
+    /* background-color: red;    */
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5%;
+}
+.rsn-img-wrp{
+    /* background-color: springgreen; */
+    width: 40%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rsn-txt-wrp{
+    /* background-color: springgreen; */
+    width: 55%;
+    height: 95%;
+}
+#rsn-hd{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.rsn-txt-wrp > p > span{
+    font-weight: 750 !important;
+    color: dodgerblue;
+    font-size: 20px;
+}
+#drk{
+    color: rgb(3, 3, 153);
+}
+#drkt{
+    background-color: rgb(3, 3, 153) !important;
+}
+.psxn-wrp{
+    /* background-color: orangered; */
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.psxn-wrp img{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+}
+#fimg{
+    border-radius: 100%;
+    bottom: 100px;
+    right: 220px;
+    z-index: 2;
+    width: 50%;
+    height: 45%;
+    border-left: 5px solid dodgerblue;
+    box-shadow: 5px 5px 5px dodgerblue;
+}
+#simg{
+    border-radius: 100%;
+    top: 230px;
+    z-index: 2;
+    height: 45%;
+    width: 50%;
+    left: 200px;
+    /* border-right: 5px solid rgb(154, 0, 201); */
+    /* border-bottom: 5px solid rgb(154, 0, 201); */
+    box-shadow: 5px 5px 5px dodgerblue;
+}
+#timg{
+    border-radius: 100%;
+    bottom: 200px;
+    height: 55%;
+    width: 60%;
+    left: 170px;
+    /* border-right: 5px solid rgb(154, 0, 201); */
+    /* border-top: 5px solid rgb(154, 0, 201); */
+    box-shadow: 5px 5px 5px dodgerblue;
+}
+
+.card-wrp{
+    /* background-color: red; */
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card-wrp p{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Calistoga', cursive;
+}
+.cards-cont{
+    /* background-color: springgreen; */
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+.card{
+    width: 30%;
+    height: 90%;
+}
+.card-title{
+    font-size: 15px !important;
+    font-family: 'Calistoga', cursive;
+}
+.card-text{
+    font-size: 15px !important;
+}
+.btn{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 12px !important;
+    background-color: dodgerblue !important;
+    border: none !important;
+    color: white !important;
+}
+
+.teeth-impo{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imp-txt{
+    /* background-color: springgreen; */
+    width: 55%;
+    height: 95%;
+    font-family: 'Calistoga', cursive;
+}
+.imp-txt p{
+    font-family: 'Calistoga', cursive;
+}
+#imp-hd{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Calistoga', cursive;
+}
+#imp-sub{
+    font-weight: 100 !important;
+}
+.imp-img{
+    /* background-color: red; */
+    width: 40%;
+    height: 95%;
+}
+.imp-img img{
+    width: 100%;
+    height: 90%;
+}
+.explore{
+    /* background-color: whitesmoke; */
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 5%;
+}
+.explore > a{
+    background-color: dodgerblue;
+    padding: 1% 5%;
+    text-decoration: none;
+    font-size: 13px !important;
+    border-radius: 10px;
+}
+footer{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}

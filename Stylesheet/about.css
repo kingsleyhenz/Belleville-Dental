@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 0 4% !important;
 }
 .ceo-box{
     background-color: dodgerblue;
@@ -47,7 +47,7 @@
     height: 65%;
     border-radius: 20px;
     color: whitesmoke;
-    padding: 1%;
+    padding: 1% !important;
 }
 .ceo-box i{
     font-size: 70px;
@@ -105,7 +105,7 @@
 }
 .ceo-list a{
     background-color: rgb(3, 3, 153);
-    padding: 4px 5%;
+    padding: 4px 5% !important;
     text-decoration: none;
     border-radius: 6px;
     width: 20%;
@@ -115,11 +115,11 @@
     /* background-color: whitesmoke; */
     width: 100%;
     height: 600px;
-    margin-top: 40px;
+    margin-top: 40px !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 0 4% !important;
 }
 .mxn-box{
     /* background-color: springgreen; */
@@ -158,7 +158,7 @@
     /* background-color: whitesmoke; */
     width: 100%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 50px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +170,7 @@
     height: 17%;
     text-align: center;
     font-weight: 500;
-    padding: 1% 0;
+    padding: 1% 0 !important;
 }
 #sml{
     font-size: 20px;
@@ -184,7 +184,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 0 4% !important;
 }
 .spec-card{
     background-color: white;

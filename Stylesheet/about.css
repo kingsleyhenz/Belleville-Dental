@@ -1,10 +1,10 @@
 *{
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
-.about-hero{
+.about-hero{ 
     width: 100%;
     height: 150px;
     background-color: whitesmoke;
@@ -34,12 +34,12 @@
 .med-team{
     background-color: #003a92;
     width: 100%;
-    height: 600px;
+    height: 100%;
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4% !important;
+    padding: 50px 4% !important;
 }
 .ceo-box{
     background-color: dodgerblue;
@@ -70,6 +70,8 @@
 }
 .ceo img{
     border-radius: 100%;
+    width: 50px;
+    height: 50px;
 }
 .ceo p{
     font-size: 10px !important;
@@ -105,16 +107,17 @@
 }
 .ceo-list a{
     background-color: rgb(3, 3, 153);
-    padding: 4px 5% !important;
+    padding: 12px 20px !important;
     text-decoration: none;
     border-radius: 6px;
     width: 20%;
     font-size: 13px;
+    white-space: nowrap;
+    margin-top: 20px !important;
 }
 .mxn{
     /* background-color: whitesmoke; */
     width: 100%;
-    height: 600px;
     margin-top: 40px !important;
     display: flex;
     flex-direction: column;
@@ -183,12 +186,13 @@
     height: 75%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 4% !important;
 }
 .spec-card{
     background-color: white;
-    width: 30%;
+    width: 95%;
+    max-width: 400px;
     height: 90%;
     border-radius: 5%;
     text-align: center;
@@ -206,4 +210,44 @@ footer{
     width: 100%;
     height: 200px;
     margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px){
+    .med-team{
+        flex-direction: column-reverse;
+    }
+    .ceo-list{
+        max-width: 800px;
+        width: 95%;
+    }
+    .ceo-box{
+        max-width: 800px;
+        width: 95%;
+        margin-top: 30px !important;
+    }
+    .mxn-box{
+        flex-direction: column;
+    }
+    .mxn-box:nth-child(2){
+        margin-top: 50px !important;
+        flex-direction: column-reverse;
+    }
+    .mxn-txt{
+        max-width: 800px;
+        width: 95%;
+        text-align: center;
+    }
+    .mxn-box img{
+        width: 80%;
+        max-width: 450px;
+        margin-bottom: 30px !important;
+
+    }
+   
+}
+
+@media screen and (max-width: 670px){
+    #txt-sub{
+        font-size: 20px !important;
+    }
 }

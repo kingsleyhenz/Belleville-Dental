@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Stylesheet/about.css">
+    <link rel="stylesheet" href="/Stylesheet/contact.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
@@ -13,7 +13,30 @@
 </head>
 <body>
     <div ng-include="'../Component/Navbar.html'"></div>  
-
+    <div class="cont-wrp">
+        <div class="main-cont-box">
+            <P>Reach Out To Us</P>
+            <div class="cnt-info-box">
+                <div class="info">
+                    <p>Email</p>
+                    <input type="text" placeholder="ayehenz29@gmail.com" disabled>
+                </div>
+                <div class="info">
+                    <p>Phone Number</p>
+                    <input type="text" placeholder="+(234)-81-466-155-30" disabled>
+                </div>
+                <div class="info">
+                    <p>Address</p>
+                    <input type="text" placeholder="No 48 Old Aba Road,Port-Harcourt,Rivers State" disabled>
+                </div>
+                <div class="send-mail">
+                    <input type="text" placeholder="Enter Your Email Address">
+                    <input type="text" placeholder="Send us a message" id="mailbx">
+                    <button>Send Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="/Scripts/index.js"></script>
       <script src="../Controllers/contactController.js"></script>

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.cont-wrp{
+    background-color: rgba(245, 245, 245, 0.795);
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/hero-three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-cont-box{
+    background-color: whitesmoke;
+    width: 40%;
+    height: 75%;
+    box-shadow: 7px 5px 5px rgb(155, 155, 155);
+    border-radius: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    align-items: center;
+}
+.main-cont-box p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.cnt-info-box{
+    /* background-color: red; */
+    width: 70%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    /* background-color: springgreen; */
+    width: 70%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info p{
+    font-size: 15px !important;
+}
+.info input{
+    height: 60%;
+    padding: 0 2% !important;
+    border: none;
+    box-shadow: 5px 3px 5px grey;
+}
+.info input::placeholder{
+    font-weight: 600;
+}
+.send-mail{
+    /* background-color: springgreen; */
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.send-mail input{
+    padding: 2% !important;
+    background-color: transparent;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+    outline: none;
+}
+#mailbx{
+    width: 100%;
+    height: 60%;
+}
+.send-mail button{
+    border: none;
+    width: 40%;
+    height: 15%;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgb(185, 185, 185);
+    cursor: pointer;
+}

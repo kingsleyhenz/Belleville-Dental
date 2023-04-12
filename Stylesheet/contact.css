@@ -19,7 +19,8 @@
 }
 .main-cont-box{
     background-color: whitesmoke;
-    width: 40%;
+    width: 95%;
+    max-width: 500px;
     height: 75%;
     box-shadow: 7px 5px 5px rgb(155, 155, 155);
     border-radius: 2%;

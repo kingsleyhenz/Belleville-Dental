@@ -61,6 +61,7 @@
 }
 .info input::placeholder{
     font-weight: 600;
+    text-align: center;
 }
 .send-mail{
     /* background-color: springgreen; */

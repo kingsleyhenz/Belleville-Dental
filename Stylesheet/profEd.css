@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Ed-hero{
+    background-color: grey;
+    width: 100%;
+    height: 400px;
+}
+.reltd-wrp{
+    /* background-color: springgreen; */
+    width: 100%;
+    height: 750px;
+    margin-top: 60px !important;
+    padding: 0 4% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.reltd-hd{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+}
+.main-crs{
+    /* background-color: red; */
+    width: 100%;
+    height: 80%;
+}
+.accordion{
+    height: 100% !important;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.accordion-header{
+    height: 80px !important;
+    /* margin-top: 20px; */
+}
+.accordion-header > button{
+    height: 70px !important;
+    padding: 2% 1% !important;
+    /* background-color: red !important; */
+    border-top: 1px solid whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.accordion-body{
+    padding: 0 1% !important;
+    font-size: 15px;
+}
+.help-docs{
+    /* background-color: springgreen; */
+    width: 100%;
+    height: 855px;
+    margin-top: 200px !important;
+    padding: 0 4% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+}
+.help-hd{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+}
+.help-main{
+    /* background-color: red; */
+    width: 100%;
+    height: 85%;
+}
+.help-main > span{
+    font-weight: 500;
+    font-size: 20px;
+}
+.help-main > p{
+    margin-bottom: 20px !important;
+}
+.fac-wrap{
+    /* background-color: springgreen; */
+    width: 100%;
+    height: 800px;
+    margin-top: 100px !important;
+    padding: 0 4% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.fac-hd{
+    /* background-color: red; */
+    width: 100%;
+    height: 15%;
+}
+.fac-wrap p{
+    font-size: 15px;
+}
+.resources{
+    /* background-color: rgb(145, 0, 0); */
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+    justify-content: space-between;
+}
+#img{
+    height: 100% !important;
+}
+.card-body > a{
+    padding: 1% 2.5% !important;
+    background-color: dodgerblue;
+    text-decoration: none;
+}
+.card{
+    height: 100%;
+    width: 80%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.card img{
+    height: 60% !important;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: 600;
+}
+.stdnt-res{
+    /* background-color: whitesmoke; */
+    width: 100%;
+    height: 700px;
+    margin-top: 100px !important;
+    padding: 0 4% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.std-res-hd{
+    width: 100%;
+    height: 8%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-std-res{
+    /* background-color: springgreen; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.stdbx{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stdbx>p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.stdbx > .card{
+    height: 22%;
+    padding: 0 1% !important;
+}
+footer{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    margin-top: 150px !important;
+}

@@ -196,7 +196,7 @@
 
 @media screen and (max-width: 1120px) {
     .fac-wrap{
-        margin-top: 600px !important;
+        margin-top: 350px !important;
         /* height: 1200px !important; */
     }
     .fac-hd{
@@ -207,7 +207,7 @@
         place-items: center;
     }
     .stdnt-res{
-        margin-top: 1000px !important;
+        margin-top: 600px !important;
         height: 1200px !important;
     }
     .stdbx>p{
@@ -222,6 +222,13 @@
     
 
 }
+@media screen and (max-width: 887px){
+    .stdnt-res{
+        margin-top: 400px !important;
+    }
+}
+
+
 @media screen and (max-width: 680px) {
     .help-docs{
         margin-top: 400px !important;
@@ -240,6 +247,7 @@
     .stdnt-res{
         height: 2000px !important;
         align-items: center !important;
+        margin-top: 1400px !important   ;
     }
     .main-std-res{
         flex-direction: column;
@@ -257,7 +265,10 @@
 @media screen and (max-width: 575px){
     .help-docs{
         height: 1600px !important;
-        background-color: red;
+        /* background-color: red; */
+    }
+    .stdnt-res{
+        margin-top: 1250px !important;
     }
 }
 
@@ -265,6 +276,9 @@
     .fac-wrap{
         margin-top: 100px !important;
         height: 900px !important;
+    }
+    .stdnt-res{
+        margin-top: 1400px !important;
     }
 }
 @media screen and (max-width:471px){
@@ -275,7 +289,10 @@
 }
 @media  screen and (max-width:395px){
     .fac-wrap{
-        margin-top: 550px !important;
+        margin-top: 800px !important;
         height: 900px !important;
+    }
+    .stdnt-res{
+        margin-top: 1000px !important;
     }
 }

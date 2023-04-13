@@ -244,6 +244,18 @@ footer{
     height: 200px;
     margin-top: 50px;
 }
+.sitebx{
+    /* background-color: red; */
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.sitebx img{
+    height: 100%;
+    width: 95%;
+    margin-bottom: 30px !important;
+}
 
 @media screen and (max-width: 1200px){
     #carouselExampleCaptions{

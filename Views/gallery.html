@@ -13,6 +13,7 @@
 </head>
 <body>
     <div ng-include="'../Component/Navbar.html'"></div> 
+    <p>Gallery</p>
     <div class="gallery-main" ng-controller="galleryController as gallery">
           <div class="gal-card" ng-repeat="image in gallery.imageData">
             <img src="{{image.url}}" alt="{{image.title}}">

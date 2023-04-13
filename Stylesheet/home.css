@@ -8,40 +8,38 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
-#carouselExampleCaptions{
+.home-hero{
+    background-color: rgba(128, 128, 128, 0.479);
     width: 100%;
-    height: 600px;
+    height: 450px;
+    background-image: url(../images/hero-three.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
 }
-.carousel-inner {
-    width: 100%;
-    height: 100%;
-    /* border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px; */
+.home-hero span{
+    font-size: 40px;
+    color: white;
+}
+.home-hero p{
+    color: white;
+    font-size: 25px;
+}
+.home-hero a{
+    background-color: dodgerblue;
+    font-size: 18px;
+    color: white;
+    padding: 0.5% !important;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.carousel-item img {
-    width: 100%; /* Resize the image to fit the container */
-    height: 100%;
-    /* border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px; */
-    object-fit: cover;
-}
-.carousel-caption {
-    color: #d40606; 
-    font-size: 2rem; 
-    /* font-family: Arial, sans-serif;  */
-    text-shadow: 0px 0px 10px black; 
-    margin-bottom: 300px !important;
-  }
-  .carousel-control-prev,
-.carousel-control-next {
-  background-color: #2e2e2e69 !important;
-  color: black !important;
-}
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(1);
-}
 
 .rsn-wrp{
     /* background-color: red;    */
@@ -261,23 +259,34 @@ footer{
     #carouselExampleCaptions{
         width: 100%;
         height: 400px;
+    }  
+    .carousel-item{
+        display: flex;
+        flex-direction: column;
+        align-items: end !important;
     }
     .carousel-item img{
         height: 400px;
     }
+      .carousel-container {
+        height: 400px;
+      }
     .rsn-wrp{
         flex-direction: column;
         height: 100%;
         padding-bottom: 70px !important;
+        /* background-color: red; */
     }   
     .rsn-img-wrp{
-        height: 600px;
+        height: 300px;
     }
     .rsn-txt-wrp{
         text-align: center;
         width: 90%;
         max-width: 800px;
-        padding-right: 0 !important;
+        padding: 0 !important;
+        /* background-color: springgreen; */
+        text-align: justify;
     }
     .card-wrp{
         height: max-content;

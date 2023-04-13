@@ -224,7 +224,7 @@
 }
 @media screen and (max-width: 680px) {
     .help-docs{
-        margin-top: 300px !important;
+        margin-top: 400px !important;
         height: 1200px !important;
     }
     .fac-wrap{
@@ -257,24 +257,25 @@
 @media screen and (max-width: 575px){
     .help-docs{
         height: 1600px !important;
+        background-color: red;
     }
 }
 
 @media screen and (max-width: 547px){
     .fac-wrap{
-        margin-top: 600px !important;
-        height: 1200px !important;
+        margin-top: 100px !important;
+        height: 900px !important;
     }
 }
 @media screen and (max-width:471px){
     .fac-wrap{
-        margin-top: 900px !important;
-        height: 1200px !important;
+        margin-top: 400px !important;
+        height: 600px !important;
     }
 }
-@media  screen and (max-width:391px){
+@media  screen and (max-width:395px){
     .fac-wrap{
-        margin-top: 1300px !important;
-        height: 1200px !important;
+        margin-top: 550px !important;
+        height: 900px !important;
     }
 }

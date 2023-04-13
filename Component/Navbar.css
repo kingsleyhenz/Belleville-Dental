@@ -52,16 +52,30 @@ a{
     color: black !important;
 }
 @media (max-width: 991px) {
-    
+    .container-fluid{
+        position: relative;
+    }
     ul{
         width: 30%;
         height: 95% !important;
         background-color: white;
-        /* color: black !important; */
+        position: sticky;
+        z-index: 3;
     }
     ul > li > a{
     color: black !important;
     }
+    .navbar-collapse {
+        display: none; /* Hide the navbar collapse by default */
+      }
+      .navbar-toggler:focus + .navbar-collapse {
+        display: block; /* Show the navbar collapse when toggler is clicked */
+      }
+      .navbar-close-icon::before {
+        content: '\f00d';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+      }
   }
   
  

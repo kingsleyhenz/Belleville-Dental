@@ -32,7 +32,8 @@ ul{
     justify-content: space-between;
     font-size: 15px;
     list-style: none;
-    /* background-color: red; */
+    /* background-color: white;
+    color: black !important; */
 }
 a{
     text-decoration: none;
@@ -50,3 +51,18 @@ a{
 .dropdown-menu > li > a{
     color: black !important;
 }
+@media (max-width: 991px) {
+    
+    ul{
+        width: 30%;
+        height: 95% !important;
+        background-color: white;
+        /* color: black !important; */
+    }
+    ul > li > a{
+    color: black !important;
+    }
+  }
+  
+ 
+  

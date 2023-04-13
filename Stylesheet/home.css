@@ -290,6 +290,7 @@ footer{
     }
     .card-wrp{
         height: max-content;
+        width: 100vw;
     }
     .cards-cont{
         display: grid;
@@ -310,6 +311,25 @@ footer{
         width: 90%;
         max-width: 800px;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 841px){
+    .home-hero span{
+        font-size: 30px;
+        color: white;
+    }
+    .home-hero p{
+        color: white;
+        font-size: 20px;
+    }
+    .home-hero a{
+        background-color: dodgerblue;
+        font-size: 15px;
+        color: white;
+        padding: 1% !important;
+        border-radius: 5px;
+        text-decoration: none;
     }
 }
 
@@ -342,5 +362,23 @@ footer{
     }
     .teeth-impo .imp-txt{
         width: 100% !important;
+    }
+}
+@media screen and (max-width: 570px){
+    .home-hero span{
+        font-size: 25px;
+        color: white;
+    }
+    .home-hero p{
+        color: white;
+        font-size: 15px;
+    }
+    .home-hero a{
+        background-color: dodgerblue;
+        font-size: 13px;
+        color: white;
+        padding: 1% !important;
+        border-radius: 5px;
+        text-decoration: none;
     }
 }

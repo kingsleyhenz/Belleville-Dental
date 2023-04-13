@@ -65,7 +65,7 @@
 .help-docs{
     /* background-color: springgreen; */
     width: 100%;
-    height: 855px;
+    height: 900px !important;
     margin-top: 200px !important;
     padding: 0 4% !important;
     display: flex;
@@ -78,14 +78,16 @@
     /* background-color: red; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 2%;
     font-size: 15px;
     font-weight: 400;
 }
 .help-main{
     /* background-color: red; */
     width: 100%;
-    height: 85%;
+    height: max-content !important;
+    /* margin-top: 10px !important; */
 }
 .help-main > span{
     font-weight: 500;
@@ -222,10 +224,11 @@
 }
 @media screen and (max-width: 680px) {
     .help-docs{
-        margin-top: 350px !important;
+        margin-top: 300px !important;
+        height: 1200px !important;
     }
     .fac-wrap{
-        margin-top: 1200px !important;
+        margin-top: 400px !important;
         height: 1200px !important;
     }
     .fac-hd{
@@ -250,6 +253,21 @@
         margin-top: 20px !important;
     }
 }
-@media screen and (max-width: 680px){
-
+@media screen and (max-width: 547px){
+    .fac-wrap{
+        margin-top: 600px !important;
+        height: 1200px !important;
+    }
+}
+@media screen and (max-width:471px){
+    .fac-wrap{
+        margin-top: 900px !important;
+        height: 1200px !important;
+    }
+}
+@media  screen and (max-width:391px){
+    .fac-wrap{
+        margin-top: 1300px !important;
+        height: 1200px !important;
+    }
 }

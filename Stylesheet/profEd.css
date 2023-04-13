@@ -205,7 +205,7 @@
         place-items: center;
     }
     .stdnt-res{
-        margin-top: 1500px !important;
+        margin-top: 1000px !important;
         height: 1200px !important;
     }
     .stdbx>p{
@@ -221,8 +221,11 @@
 
 }
 @media screen and (max-width: 680px) {
+    .help-docs{
+        margin-top: 350px !important;
+    }
     .fac-wrap{
-        margin-top: 600px !important;
+        margin-top: 1200px !important;
         height: 1200px !important;
     }
     .fac-hd{
@@ -230,6 +233,23 @@
     }
     .resources{
         grid-template-columns: repeat(1,1fr) !important;
-
     }
+    .stdnt-res{
+        height: 2000px !important;
+        align-items: center !important;
+    }
+    .main-std-res{
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .stdbx{
+        width: 100%;
+        align-items: center;
+    }
+    .stdbx > P{
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 680px){
+
 }

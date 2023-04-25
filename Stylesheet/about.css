@@ -257,4 +257,10 @@ footer{
     #txt-sub{
         font-size: 20px !important;
     }
+    .ceo-list p{
+        font-size: 20px;
+    }
+    .ceo-list > li{
+        font-size: 12px;
+    }
 }

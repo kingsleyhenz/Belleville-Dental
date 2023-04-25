@@ -401,8 +401,29 @@ footer{
         background-color: dodgerblue;
         font-size: 13px;
         color: white;
-        padding: 2% !important;
+        padding: 1% 3% !important;
         border-radius: 5px;
         text-decoration: none;
+    }
+}
+
+@media screen and (max-width:414px){
+    .home-hero span{
+        font-weight:600;
+    }
+    .home-hero{
+        text-align:center;
+        padding: 0 2% !important;
+    }
+    .img_ img{
+        width:95% !important;
+        height:95% !important;
+    }
+    .rsn-txt-wrp{
+        margin-top:25px !important;
+    }
+    .rsn-txt-wrp > p > span{
+        font-weight: 540 !important;
+        font-size: 15px !important;
     }
 }

@@ -419,11 +419,41 @@ footer{
         width:95% !important;
         height:95% !important;
     }
+    .rsn-wrp{
+        /* height:700px; */
+    }
     .rsn-txt-wrp{
         margin-top:25px !important;
+        height:100%;
+        gap:5% !important;
     }
     .rsn-txt-wrp > p > span{
         font-weight: 540 !important;
         font-size: 15px !important;
+    }
+    .card-wrp p{
+        font-size: 18px;
+        font-weight: 550;
+        font-family: 'Calistoga', cursive;
+    }
+    .card-body{
+        padding:0 1% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+    .card-title{
+        font-size: 18px !important;
+        margin-top: 5px !important;
+    }
+    .card-text{
+        font-weight: 500 !important;
+        font-size:12px !important;
+        margin-top: 5px !important;
+    }
+    .card-body a{
+        padding: 1% !important;
+        margin-top: 5px !important;
     }
 }

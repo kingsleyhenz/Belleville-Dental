@@ -264,3 +264,36 @@ footer{
         font-size: 10px;
     }
 }
+
+@media screen and (max-width:414px){
+    .about-hero{
+        height: 90px;
+    }
+    .ceo-list{
+        width: 100%;
+        gap: 5% !important;
+    }
+    .ceo-list > ul > li{
+        font-size: 12px !important;
+        font-weight: 300 !important;
+    }
+    .ceo-list > a{
+        width: 30%;
+        padding: 1% 5% !important;
+        text-align: center !important;
+    }
+    .ceo-box{
+        height: 300px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+        padding: 1% 2% !important;
+    }
+    .ceo-box i{
+        font-size: 55px;
+    }
+    .ceo-box p{
+        font-size: 10px;
+        font-weight: lighter;
+    }
+}

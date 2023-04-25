@@ -405,6 +405,13 @@ footer{
         border-radius: 5px;
         text-decoration: none;
     }
+    .rsn-txt-wrp > p{
+        font-weight: lighter;
+    }
+    .rsn-txt-wrp > p > span{
+        font-weight: 540 !important;
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width:414px){
@@ -426,10 +433,6 @@ footer{
         margin-top:25px !important;
         height:100%;
         gap:5% !important;
-    }
-    .rsn-txt-wrp > p > span{
-        font-weight: 540 !important;
-        font-size: 15px !important;
     }
     .card-wrp p{
         font-size: 18px;

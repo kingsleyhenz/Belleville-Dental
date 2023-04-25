@@ -412,6 +412,9 @@ footer{
         font-weight: 540 !important;
         font-size: 15px !important;
     }
+    .explore p{
+        font-weight: lighter;
+    }
 }
 
 @media screen and (max-width:414px){

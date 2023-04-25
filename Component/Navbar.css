@@ -69,9 +69,11 @@ nav{
 }
 .drpdwn.show {
     display: block;
+    transition: 30s !important;
   }  
 .tabs>ul.showing{
     display: flex !important;
+    transition: 10s !important;
   }
 .drpdwn ul{
     /* background-color: springgreen; */

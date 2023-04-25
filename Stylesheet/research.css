@@ -7,6 +7,7 @@
     background-color: grey;
     width: 100%;
     height: 300px;
+    margin-bottom: 15px !important;
 }
 .res-hero img{
   width: 100%;
@@ -15,48 +16,60 @@
 }
 .res-wrp{
     margin-top: 50px !important;
-    /* background-color: red; */
+    /* background-color: grey; */
     width: 100%;
     height: 400px;
-    padding: 1% 4% !important;
+    padding: 0 4% !important;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3%;
 }   
-
-.card {
+.res-card{
+    background-color: white;
     width: 100%;
-    height: 100%;
-    /* border: 1px solid black; */
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 2px 2px 5px grey;
+    height: 90%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 4%;
-    padding: 0 2% !important;
-  }
-  .card a{
-    width: 20%;
-    padding: 1% 2% !important;
-  }
-  .card-title {
-    font-size: 17px;
-    font-weight: 550;
-    margin-bottom: 10px;
-  }
-  .card-text {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .card-link {
-    text-decoration: none;
-    color: white;
-    background-color: dodgerblue;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% !important;
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px rgb(231, 231, 231);
+}
+.card-image{
+    width: 40%;
+    height: 90%;
+    /* background-color: red; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    background-image: url(/images/impo-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.txt-holder{
+  width: 55%;
+  height: 95%;
+  /* background-color: springgreen; */
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+.txt-holder > h3{
+  font-size: 16px;
+  height: 30%;
+}
+.txt-holder > p{
+  font-size: 14px;
+  height: 30%;
+}
+.txt-holder > a{
+  background-color: dodgerblue;
+  width: 40%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
   @media screen and (max-width: 1200px) {
     .res-wrp{
         display: grid;
@@ -77,5 +90,21 @@
   .card{
     padding: 2%;
 
+  }
+}
+
+@media screen and (max-width: 600px ) {
+  .txt-holder > h3{
+    font-size: 14px;
+    height: 30%;
+  }
+  .txt-holder > p{
+    font-size: 12px;
+    height: 30%;
+  }
+  .txt-holder > a{
+    width: 40%;
+    font-size: 11px;
+    color: white;
   }
 }

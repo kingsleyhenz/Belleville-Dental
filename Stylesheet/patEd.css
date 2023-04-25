@@ -46,6 +46,16 @@
 }
 @media screen and (max-width: 680px){
     .notes-box ul{
-        padding: 0 1% !important;
+        padding: 0 3% !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .notes-box > p{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    .notes-box > ul > li{
+        font-weight: lighter;
     }
 }

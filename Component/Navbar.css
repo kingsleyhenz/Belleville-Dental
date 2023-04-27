@@ -1,146 +1,179 @@
-*{
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+/** @format */
+
+* {
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
-nav{
-    background-color: dodgerblue;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 0 4% !important;
-    gap: 50%;
+nav {
+	background-color: dodgerblue;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 4% !important;
+	/* justify-content: space-between; */
+	gap: 20%;
 }
-.logo{
-    font-size: 25px;
-    font-weight: 600;
-    color: white;
+
+#explore {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	/* background-color: aquamarine; */
+	height: inherit;
 }
-.tabs{
-    width: 35% !important;
-    height: 95%;
-    display: flex;
-    align-items: center;
-    /* background-color: red; */
+.logo {
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
 }
-.tabs > ul{
-    width: 100%;
-    height: 100%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.tabs {
+	width: 100% !important;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* background-color: bisque; */
 }
-.tabs > ul > li{
-    list-style: none;
-    display: flex;
-    align-items: center !important;
-    width: 20%;
-    height: 50%;
-    /* background-color: yellow; */
-    cursor: pointer;
-} 
-.tabs > ul > li > a{
-    text-decoration: none;
-    color: white;
+.tabs > ul {
+	width: 100%;
+	height: 100%;
+	/* background-color: yellowgreen; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.tabs > ul > li > i{
-    font-size: 15px;
-    color: white;
-    margin-top: 5px !important;
-    position: relative;
+.tabs > ul > li {
+	list-style: none !important;
+	display: flex;
+	align-items: center !important;
+	width: 20%;
+	height: 50%;
+	/* background-color: yellow; */
+	cursor: pointer;
 }
-#ham{
-    display: none !important;
-    font-size: 27px;
-    color: white;
+.tabs > ul > li > a {
+	text-decoration: none;
+	color: white;
 }
-.drpdwn{
-    position: absolute;
-    width: 25%;
-    height: 40%;
-    background-color: whitesmoke;
-    top: 50px;
-    right: 0px;
-    z-index: 5;
-    display: none;
+.tabs > ul > li > i {
+	font-size: 15px;
+	color: white;
+	margin-top: 5px !important;
+	position: relative;
+}
+#ham {
+	display: none !important;
+	font-size: 27px;
+	color: white;
+}
+.drpdwn {
+	position: absolute;
+	width: 25%;
+	height: 50%;
+	background-color: whitesmoke;
+	top: 50px;
+	right: 10px;
+	z-index: 5;
+	display: none;
+	border-radius: 10px;
+    padding: 10px 0px;
 }
 .drpdwn.show {
-    display: block;
-    transition: 30s !important;
-  }  
-.tabs>ul.showing{
-    display: flex !important;
-    transition: 10s !important;
-  }
-.drpdwn ul{
-    /* background-color: springgreen; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    list-style: none;
-    /* padding: 0 5% !important; */
+	display: block;
+	transition: 30s !important;
 }
-.drpdwn > ul > li{
-    /* background-color: whitesmoke;     */
-    width: 100%;
-    height: 17%;
-    display: flex;
-    align-items: center;
-    padding: 0 3% !important;
+.tabs > ul.showing {
+	display: flex !important;
+	transition: 10s !important;
 }
-.drpdwn > ul > li > a{
-    text-decoration: none;
-    color: black;
+.drpdwn ul {
+	/* background-color: springgreen; */
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style: none;
+	/* padding: 0 5% !important; */
+}
+.drpdwn > ul > li {
+	width: 100%;
+	height: 17%;
+	display: flex;
+	align-items: center;
+	padding: 0 3% !important;
+}
+
+.drpdwn > ul > li > a:hover {
+	background-color: #1f8ffe;
+	color: white;
+	transition: all 1s ease;
+    padding: 0px 10px !important;
+}
+
+.drpdwn > ul > li > a {
+	text-decoration: none;
+	color: black;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	padding: 0px 20px !important;
+	display: flex;
+	align-items: center;
 }
 
 @media screen and (max-width: 1094px) {
-    .tabs{
-        justify-content: end;
-        position: relative;
-    }
-    .tabs > ul{
-        display: none !important;
-        flex-direction: column;
-        position: absolute;
-        background-color: white;
-        width: 250px !important;
-        height: 250px;
-        top: 48px;
-        right: -40px !important;
-        padding: 0 2% !important;
-        z-index: 5;
-    }
-    .tabs > ul > li {
-        width: 100%;
-    }
-    .tabs > ul > li > a{
-        color: black !important;
-        font-size: 15px;
-    }
-    #ham{
-        font-size: 25px;
-        display: block !important;
-    }
+	.tabs {
+		justify-content: end;
+		position: relative;
+	}
+
+	.drpdwn {
+		top: 18rem;
+		right: 20px;
+	}
+
+	.tabs > ul {
+		display: none !important;
+		flex-direction: column;
+		position: absolute;
+		background-color: white;
+		width: 250px !important;
+		height: 250px;
+		top: 48px;
+		right: -40px !important;
+		padding: 0 2% !important;
+		z-index: 5;
+	}
+	.tabs > ul > li {
+		width: 100%;
+	}
+	.tabs > ul > li > a {
+		color: black !important;
+		font-size: 15px;
+	}
+	#ham {
+		font-size: 25px;
+		display: block !important;
+	}
 }
 @media screen and (max-width: 634px) {
-    .tabs{
-        justify-content: end;
-        position: relative;
-    }
-    .tabs > ul{
-        width: 200px !important;
-        padding: 0 5% !important;
-    }
-    .drpdwn ul{
-        width: 300px !important;
-    }
-    .drpdwn ul>li>a{
-        font-size: 12px;
-    }
-    
+	.tabs {
+		justify-content: end;
+		position: relative;
+	}
+	.tabs > ul {
+		width: 200px !important;
+		padding: 0 5% !important;
+	}
+	.drpdwn ul {
+		width: 300px !important;
+	}
+	.drpdwn ul > li > a {
+		font-size: 12px;
+	}
 }

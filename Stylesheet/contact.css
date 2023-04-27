@@ -230,3 +230,16 @@ textarea{
 		height: 200px;
 	}
 }
+@media screen and (max-width: 880px){
+	.main-cont-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .left{
+        height: 400px;
+        border-top-left-radius: 0px;
+    }
+}

@@ -103,6 +103,12 @@ nav{
         justify-content: end;
         position: relative;
     }
+
+    .drpdwn{
+        top: 18rem;
+        right: 20px;
+    }
+
     .tabs > ul{
         display: none !important;
         flex-direction: column;

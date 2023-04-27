@@ -100,7 +100,6 @@
     text-align: center;
 }
 .send-mail{
-    
     width: 70%;
     height: 40%;
     display: flex;
@@ -123,11 +122,12 @@
 .send-mail button{
     border: none;
     width: 40%;
-    height: 15%;
+    height: 10%;
     background-color: grey;
     border-radius: 5px;
-    box-shadow: 2px 5px 5px rgb(185, 185, 185);
+    /* box-shadow: 2px 5px 5px rgb(185, 185, 185); */
     cursor: pointer;
+    font-size: 13px;
 }
 .container{
     display: flex;

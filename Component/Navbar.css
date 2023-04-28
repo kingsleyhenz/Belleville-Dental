@@ -126,15 +126,26 @@ nav {
 	align-items: center;
 }
 
+.nav_li_exp{
+	display: none !important;
+}
+
 @media screen and (max-width: 1094px) {
 	.tabs {
 		justify-content: end;
 		position: relative;
 	}
 
+	.nav_li_exp{
+		display: block !important;
+	}
+
 	.drpdwn {
 		top: 18rem;
-		right: 20px;
+		right: 0px;
+		min-width: 245px;
+		border-radius: 0;
+		background-color: white;
 	}
 
 	.tabs > ul {

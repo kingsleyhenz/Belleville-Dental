@@ -83,6 +83,9 @@
     .product_content{
         grid-template-columns: repeat(2,1fr);
     }
+    .rate-bx > button{
+        height: 60% !important;
+    }
 }
 
 @media screen and (max-width: 630px){
@@ -91,5 +94,8 @@
     }
     .product_content{
         grid-template-columns: repeat(1,1fr);
+    }
+    .rate-bx > button{
+        height: 55% !important;
     }
 }

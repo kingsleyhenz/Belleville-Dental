@@ -31,25 +31,25 @@
                 <p>Keep your teeth and gums healthy with our high-quality toothbrush. Its soft bristles gently clean your teeth and remove plaque without causing any damage to your enamel.</p>
                 <div class="rate-bx">
                     <input type="text" placeholder="Leave A review">
-                    <button>Review</button>
+                    <button class="rate-bx button">Review</button>
                 </div>
             </div>
             <div class="_card">
                 <img src="../images/artif.jpg" alt="">
                 <h5>Artificial Teeth</h5>
-                <p>Say goodbye to missing teeth with our state-of-the-art artificial teeth. Our dental specialists will create custom-made dentures that fit perfectly in your mouth and restore your smile to its natural beauty.</p>
+                <p>Say goodbye to missing teeth with our state-of-the-art artificial teeth. Our dental specialists will create custom-made dentures that fit perfectly in your mouth and restore your smile</p>
                 <div class="rate-bx">
                     <input type="text" placeholder="Leave A review">
-                    <button>Review</button>
+                    <button class="rate-bx button">Review</button>
                 </div>
             </div>
             <div class="_card">
                 <img src="../images/5516867.jpg" alt="">
                 <h5>Tooth Paste</h5>
-                <p>ur advanced toothpaste is specially formulated to give you strong, healthy teeth and fresh breath. It contains fluoride to prevent cavities, and its unique formula cleans your teeth without harsh abrasives.</p>
+                <p>ur advanced toothpaste is specially formulated to give you strong, healthy teeth and fresh breath. It contains fluoride to prevent cavities, and its unique formula cleans your teeth </p>
                 <div class="rate-bx">
                     <input type="text" placeholder="Leave A review">
-                    <button>Review</button>
+                    <button class="rate-bx button">Review</button>
                 </div>
             </div>
             <div class="_card">
@@ -58,13 +58,21 @@
                 <p>Our dentist tools provide an efficient way to maintain your oral health. It includes electric toothbrushes, water flossers, and air polishers, which can help remove germs from your mouth</p>
                 <div class="rate-bx">
                     <input type="text" placeholder="Leave A review">
-                    <button>Review</button>
+                    <button class="rate-bx button">Review</button>
                 </div>
             </div>
         </div>
 
     </div>
 
+    <script>
+        const buttons = document.querySelectorAll(".rate-bx button");
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                alert("Review sent");
+            });
+        });
+    </script>
     <script src="/Scripts/index.js"></script>
     <script src="../Controllers/navbarController.js"></script>
 </body>

@@ -53,8 +53,12 @@
 }
 .rate-bx > button{
     padding: 0% 4% !important;
-    height: 70%;
-    border-radius: 10px;
+    height: 35% !important;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 1230px){

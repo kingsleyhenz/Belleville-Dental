@@ -84,11 +84,11 @@ nav {
 }
 .drpdwn.show {
 	display: block;
-	transition: 30s !important;
+	transition: 5s ease-in-out !important;
 }
 .tabs > ul.showing {
 	display: flex !important;
-	transition: 10s !important;
+	transition: 5s ease-in-out !important;
 }
 .drpdwn ul {
 	/* background-color: springgreen; */
@@ -111,7 +111,7 @@ nav {
 .drpdwn > ul > li > a:hover {
 	background-color: #1f8ffe;
 	color: white;
-	transition: all 1s ease;
+	/* transition: all 1s ease; */
     padding: 0px 10px !important;
 }
 
@@ -186,5 +186,15 @@ nav {
 	}
 	.drpdwn ul > li > a {
 		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.drpdwn{
+		width: 10% !important;
+		padding: 0 !important;
+	}
+	.drpdwn > ul{
+		padding: 0 !important;
 	}
 }

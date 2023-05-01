@@ -254,6 +254,23 @@ footer{
     width: 95%;
     margin-bottom: 30px !important;
 }
+.ticker-container {
+    height: 40px;
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ticker-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 50px;
+  }
+  
 
 @media screen and (max-width: 1200px){
     #carouselExampleCaptions{

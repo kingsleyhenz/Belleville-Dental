@@ -27,6 +27,8 @@
     background-color: whitesmoke;
     padding: 20px !important;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }   
 
 .product_content ._card img{
@@ -35,6 +37,24 @@
     border-radius: 10px;
     object-fit: cover;
     margin-bottom: 10px !important;
+}
+._card > .rate-bx{
+    width: 90%;
+    height: 25%;
+    margin-top: 5px !important;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+.rate-bx > input{
+    border-radius: 10px;
+    border: none;
+    padding: 3% !important;
+}
+.rate-bx > button{
+    padding: 0% 4% !important;
+    height: 70%;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1230px){

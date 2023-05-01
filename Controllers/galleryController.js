@@ -45,4 +45,6 @@ angular.module('myApp').controller('galleryController', function() {
       "title": "Image 9"
     }
   ];
+
+  
 });

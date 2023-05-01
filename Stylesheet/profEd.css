@@ -238,6 +238,9 @@
         margin-top: 400px !important;
         height: 1200px !important;
     }
+    .help-main > p{
+        font-weight: lighter !important;
+    }
     .fac-wrap{
         margin-top: 400px !important;
         height: 1200px !important;
